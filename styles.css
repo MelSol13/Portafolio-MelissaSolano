@@ -2,15 +2,75 @@ body, h1, p {
     margin: 0;
     padding: 0;
     }
-    
+
+    .banner-foto{
+        display: flex;
+        height: 600px;
+        padding-top: 100px;
+        padding-left: 550px;
+        background-image: url(https://img.freepik.com/free-vector/gradient-geometric-background_23-2148811069.jpg?w=1380&t=st=1708213786~exp=1708214386~hmac=0758a508545d74217e1d0dfe599b17af5488cc150d72aedda1defd61dcc7d0b0);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .card-foto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 800px;
+        height: 450px;
+        padding: 30px;
+        border-radius: 30px;
+        background-image: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30632.jpg?w=740&t=st=1708214343~exp=1708214943~hmac=791821e47a93b0a124afd59e475a5d45de9d83fbce5a0c96f3a7a846cc9ef48c);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow:10px 10px 10px black;
+    }
+
     h1 {
-    color: red;
-    }
+        color: rgb(239, 59, 233);
+        margin-top: 150px;
+        margin-left: 10px;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke: 1px rgb(9, 9, 9);
+        text-shadow: 2px 2px 2px black;
+        }
     
+    #titulo{
+        color: rgb(200, 201, 202);
+        margin-top: 60px;
+        margin-left: 80px;
+        font-size:  30px;
+        -webkit-text-stroke: 0.5px rgb(9, 9, 9);
+        text-shadow: 3px 3px 3px black;
+    }
+
+    .circulo-foto{
+        display: flex;
+        width: 250px;
+        height: 250px;
+        margin-top: 100px;
+        background-color: rgb(221, 37, 212);
+        border-radius: 50%;
+        box-shadow:10px 10px 10px black;
+    }
+
+    #miFoto{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        box-shadow:10px 10px 10px rgb(23, 23, 23);
+    }
+
+    .Titulo-acerca-de-mi{
+        color: aliceblue;
+    }
+
     .text {
-    color: blue;
-    }
-    
-    #last_p {
-    color: green;
-    }
+        color: blue;
+        }
+        
+        #last_p {
+        color: green;
+        }
