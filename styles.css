@@ -8,7 +8,7 @@ body, h1, p {
         height: 600px;
         padding-top: 100px;
         padding-left: 550px;
-        background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-degradado_23-2148811069.jpg?w=1380&t=st=1708276698~exp=1708277298~hmac=0073e5e50252f616a4925757b66ef713bb9ad158e11170d32f6b5bdc141df855);
+        background-image: url(images/fondo-banner.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -21,7 +21,7 @@ body, h1, p {
         height: 450px;
         padding: 30px;
         border-radius: 30px;
-        background-image: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30632.jpg?w=740&t=st=1708276976~exp=1708277576~hmac=591f9e1be073f9fe63c3251a466ba16145b73fb376c84cef5d3cb1eb091e5460);
+        background-image: url(images/fondo-card.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         box-shadow:10px 10px 10px black;
@@ -63,8 +63,25 @@ body, h1, p {
         box-shadow:10px 10px 10px rgb(23, 23, 23);
     }
 
+    .fondo-acerca-de-mi{
+        display: flex;
+        background-color: rgba(19, 8, 39, 0.947);
+        height: 600px;
+    }
+
+    .card-acerca-de{
+        border: 6px solid rgb(131, 31, 131);
+        width: 800px;
+        height: 400px;
+        margin-top: 150px;
+        margin-left: 200px;
+        border-radius: 20px;
+    }
+
     .Titulo-acerca-de-mi{
         color: aliceblue;
+        margin-top: 80px;
+        margin-left: 200px;
     }
 
     .text {
