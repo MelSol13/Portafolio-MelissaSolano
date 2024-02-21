@@ -1,93 +1,108 @@
-body, h1, p {
+body,
+h1,
+p {
     margin: 0;
     padding: 0;
-    }
+}
 
-    .banner-foto{
-        display: flex;
-        height: 600px;
-        padding-top: 100px;
-        padding-left: 550px;
-        background-image: url(images/fondo-banner.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.banner-foto {
+    display: flex;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 550px;
+    background-image: url(images/fondo-banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-    .card-foto{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 800px;
-        height: 450px;
-        padding: 30px;
-        border-radius: 30px;
-        background-image: url(images/fondo-card.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-shadow:10px 10px 10px black;
-    }
+.card-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 30px;
+    background-image: url(images/fondo-card.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px black;
+}
 
-    h1 {
-        color: rgb(239, 59, 233);
-        margin-top: 150px;
-        margin-left: 10px;
-        font-size: 50px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        -webkit-text-stroke: 1px rgb(9, 9, 9);
-        text-shadow: 2px 2px 2px black;
-        }
-    
-    #titulo{
-        color: rgb(200, 201, 202);
-        margin-top: 60px;
-        margin-left: 80px;
-        font-size:  30px;
-        -webkit-text-stroke: 0.5px rgb(9, 9, 9);
-        text-shadow: 3px 3px 3px black;
-    }
+h1 {
+    color: rgb(239, 59, 233);
+    margin-top: 150px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px rgb(9, 9, 9);
+    text-shadow: 2px 2px 2px black;
+}
 
-    .circulo-foto{
-        display: flex;
-        width: 250px;
-        height: 250px;
-        margin-top: 100px;
-        background-color: rgb(221, 37, 212);
-        border-radius: 50%;
-        box-shadow:10px 10px 10px black;
-    }
+#titulo {
+    color: rgb(188, 188, 205);
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 25px;
+    -webkit-text-stroke: 0.5px rgb(9, 9, 9);
+    text-shadow: 3px 3px 3px black;
+    font-family: "Cinzel", serif;
+}
 
-    #miFoto{
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-        box-shadow:10px 10px 10px rgb(23, 23, 23);
-    }
+.circulo-foto {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    background-color: rgb(221, 37, 212);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
 
-    .fondo-acerca-de-mi{
-        display: flex;
-        background-color: rgba(19, 8, 39, 0.947);
-        height: 600px;
-    }
+#miFoto {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(23, 23, 23);
+}
 
-    .card-acerca-de{
-        border: 6px solid rgb(131, 31, 131);
-        width: 800px;
-        height: 400px;
-        margin-top: 150px;
-        margin-left: 200px;
-        border-radius: 20px;
-    }
+.fondo-main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 3, 31, 0.947);
+    background-size: cover;
+}
 
-    .Titulo-acerca-de-mi{
-        color: aliceblue;
-        margin-top: 80px;
-        margin-left: 200px;
-    }
+.card-acerca-de-mi{
+    width: 800px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(66, 22, 72);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #e98031, #df2ba9, #833ab4);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
 
-    .text {
-        color: blue;
-        }
-        
-        #last_p {
-        color: green;
-        }
+.Titulo-acerca-de-mi {
+    color: rgb(238, 77, 219);
+    margin-top: 55px;
+    margin-left: 320px;
+    font-size: 30px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.acerca-de-mi {
+    color: rgb(176, 176, 212);
+    margin: 50px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
