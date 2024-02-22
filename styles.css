@@ -13,6 +13,7 @@ p {
     background-image: url(images/fondo-banner.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom:2px solid #df2ba9cf;
 }
 
 .card-foto {
@@ -42,11 +43,10 @@ h1 {
 #titulo {
     color: rgb(188, 188, 205);
     margin-top: 60px;
-    margin-left: 80px;
-    font-size: 25px;
-    -webkit-text-stroke: 0.5px rgb(9, 9, 9);
+    margin-left:30px;
+    font-size: 30px;
     text-shadow: 3px 3px 3px black;
-    font-family: "Cinzel", serif;
+    font-family: "Rowdies", sans-serif;
 }
 
 .circulo-foto {
@@ -64,6 +64,11 @@ h1 {
     height: 80%;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgb(23, 23, 23);
+    transition: opacity 1s ease-in-out;
+}
+
+#miFoto:hover {
+    transform: scale(1.2);
 }
 
 .fondo-main {
@@ -75,7 +80,7 @@ h1 {
 
 .card-acerca-de-mi{
     width: 800px;
-    height: 300px;
+    height: 350px;
     margin-top: 150px;
     margin-left: 200px;
     padding: 10px;
@@ -83,16 +88,21 @@ h1 {
     border-radius: 10px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
-    linear-gradient(45deg, #e98031, #df2ba9, #833ab4);
+    linear-gradient(45deg, #e98031, #530b63, #cca92c);
     background-origin: border-box;
     background-clip: content-box, border-box;
+    transition: opacity 1s ease-in-out;
 }
 
-.Titulo-acerca-de-mi {
-    color: rgb(238, 77, 219);
+.card-acerca-de-mi:hover {
+    transform: scale(1.3);
+}
+
+.titulo-acerca-de-mi {
+    color: rgb(212, 81, 15);
     margin-top: 55px;
-    margin-left: 320px;
-    font-size: 30px;
+    margin-left: 300px;
+    font-size: 40px;
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -104,5 +114,193 @@ h1 {
     font-family: "Rowdies", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 20px;
 }
 
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 1250px;
+    margin-top: 150px;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+.titulo-proyectos{
+    color: #40c0d1;
+    margin-top: 55px;
+    margin-left: 560px;
+    font-size: 50px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.imagen-card {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: opacity 1s ease-in-out;
+}
+
+.imagen-card:hover {
+    transform: scale(2);
+}
+
+
+#icono-github{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 1s ease-in-out;
+}
+
+#icono-github:hover {
+    transform: scale(1.2);
+}
+
+
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(144, 147, 222);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #25b5bf, #4223dc, #bb7709);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.tarjeta2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(194, 150, 217);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #e7d6ee, #3f0c7d, #d9b4e6);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.tarjeta3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(208, 165, 224);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #6b31c9, #f1cb25, #7013d5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.tarjeta4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(173, 224, 240);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #26aade, #8edbe8, #046d77);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.tarjeta5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(239, 193, 170);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg,#bbadc1, #e45913, #3bbbf3);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.tarjeta6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #d48ba8, #f285bb, #9b1370);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#site-maker{
+    color: rgb(69, 112, 232);
+    font-family: "Rowdies", sans-serif;
+}
+
+#patitas{
+    color: rgb(225, 190, 241);
+    font-family: "Rowdies", sans-serif;
+}
+
+#cinema{
+    color: rgb(142, 69, 219);
+    font-family: "Rowdies", sans-serif;
+}
+
+#succulent{
+    color: rgb(49, 219, 222);
+    font-family: "Rowdies", sans-serif;
+}
+
+#travels{
+    color: rgb(222, 79, 23);
+    font-family: "Rowdies", sans-serif;
+}
+
+#market-site{
+    color: rgb(199, 49, 149);
+    font-family: "Rowdies", sans-serif;
+}
