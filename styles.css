@@ -78,16 +78,21 @@ h1 {
     background-size: cover;
 }
 
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-acerca-de-mi{
     width: 800px;
     height: 350px;
-    margin-top: 150px;
-    margin-left: 200px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px 10px rgb(66, 22, 72);
+    margin-top: 300px;
+    margin-left: 250px;
+    padding: 8px;
+    box-shadow: 5px 5px 15px 10px rgb(104, 57, 110);
     border-radius: 10px;
     border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    background-image: linear-gradient(rgba(50, 39, 80, 0.947),rgba(37, 25, 74, 0.947)), 
     linear-gradient(45deg, #e98031, #530b63, #cca92c);
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -117,20 +122,27 @@ h1 {
     font-size: 20px;
 }
 
+.circle-gif{
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 500px;
+    margin-left: 150px;
+}
+
 .proyectos{
     display: flex;
     flex-direction: column;
     width: 1400px;
     height: 1250px;
-    margin-top: 150px;
-    margin-left: 300px;
+    margin-left: 250px;
     padding: 10px;
 }
 
 .titulo-proyectos{
     color: #40c0d1;
     margin-top: 55px;
-    margin-left: 560px;
+    margin-left: 540px;
     font-size: 50px;
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
@@ -179,10 +191,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(144, 147, 222);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg, #25b5bf, #4223dc, #bb7709);
@@ -196,10 +208,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(194, 150, 217);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg, #e7d6ee, #3f0c7d, #d9b4e6);
@@ -213,10 +225,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(208, 165, 224);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg, #6b31c9, #f1cb25, #7013d5);
@@ -230,10 +242,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(173, 224, 240);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg, #26aade, #8edbe8, #046d77);
@@ -247,10 +259,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(239, 193, 170);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg,#bbadc1, #e45913, #3bbbf3);
@@ -264,10 +276,10 @@ h1 {
     align-items: center;
     width: 350px;
     height: 450px;
-    padding: 3px;
+    padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
     linear-gradient(45deg, #d48ba8, #f285bb, #9b1370);
@@ -303,4 +315,60 @@ h1 {
 #market-site{
     color: rgb(199, 49, 149);
     font-family: "Rowdies", sans-serif;
+}
+
+#hab-titulo{
+    color: #530b63;
+    margin-left: 540px;
+    font-size: 40px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 300px;
+    padding: 8px;
+    box-shadow: 5px 5px 15px 10px rgb(113, 73, 177);
+    border-radius: 10px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(202, 197, 215, 0.947),rgba(53, 38, 97, 0.947)), 
+    linear-gradient(45deg, #5dc9dc, #530b63, #2c6fcc);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+#lista-hab-arriba{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#lista-hab-abajo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#icono{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 1s ease-in-out;
+}
+
+#icono:hover {
+    transform: scale(1.2);
+}
+
+#educacion{
+    margin-top: 500px;
 }
