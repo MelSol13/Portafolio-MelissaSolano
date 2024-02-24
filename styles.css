@@ -49,6 +49,10 @@ h1 {
     font-family: "Rowdies", sans-serif;
 }
 
+.animate__animated.animate__backInLeft{
+    --animate-duration: 10s;
+}
+
 .circulo-foto {
     display: flex;
     width: 250px;
@@ -64,11 +68,10 @@ h1 {
     height: 80%;
     border-radius: 50%;
     box-shadow: 10px 10px 10px rgb(23, 23, 23);
-    transition: opacity 1s ease-in-out;
 }
 
-#miFoto:hover {
-    transform: scale(1.2);
+.animate__animated.animate__bounce {
+    --animate-duration: 8s;
 }
 
 .fondo-main {
@@ -104,7 +107,7 @@ h1 {
     transform: scale(1.3);
 }
 
-.titulo-acerca-de-mi {
+#titulo-acerca-de-mi {
     color: rgb(212, 81, 15);
     margin-top: 55px;
     margin-left: 300px;
@@ -112,6 +115,7 @@ h1 {
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .acerca-de-mi {
@@ -499,6 +503,23 @@ h1 {
 
 #logo-large:hover {
     transform: scale(1.5);
+}
+
+.sql-facilito{
+    margin-bottom: 15px;
+}
+
+.ibm-agile{
+    margin-bottom: 15px;
+}
+
+.womcy{
+    margin-bottom: 20px;
+
+}
+
+.cisco-redes{
+    margin-bottom: 15px;
 }
 
 .idiomas-cr{
