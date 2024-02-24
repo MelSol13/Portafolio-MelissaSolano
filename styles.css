@@ -338,7 +338,7 @@ h1 {
     border-radius: 10px;
     border: 2px solid #833ab4, double 2px transparent;
     background-image: linear-gradient(rgba(246, 244, 250, 0.947), rgba(49, 18, 66, 0.947)), 
-    linear-gradient(45deg, #5dc9dc, #530b63, #2c6fcc);
+    linear-gradient(45deg, #b51f99, #530b63, #b51f99);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -381,8 +381,8 @@ h1 {
 }
 
 #educacion{
-    color: rgb(205, 71, 80);
-    margin-top: 350px;
+    color: #bd2299;
+    margin-top: 310px;
     margin-left: 830px;
     font-size: 50px;
     font-family: "Protest Guerrilla", sans-serif;
@@ -410,9 +410,9 @@ h1 {
     padding: 8px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
     border-radius: 20px;
-    border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(220, 145, 151, 0.947),rgba(242, 235, 235, 0.947)), 
-    linear-gradient(45deg, #e32d39 , #cfb5b6, #b65c65);
+    border: 2px solid #c842c1, double 2px transparent;
+    background-image: linear-gradient(rgba(215, 111, 191, 0.947),rgba(242, 235, 241, 0.947)), 
+    linear-gradient(45deg, #c65cad, #ddacd3, #bd2299);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -426,9 +426,9 @@ h1 {
     padding: 8px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
     border-radius: 20px;
-    border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(220, 145, 151, 0.947),rgba(242, 235, 235, 0.947)), 
-    linear-gradient(45deg, #cfb5b6, #e32d39, #b65c65);
+    border: 2px solid #c842c1, double 2px transparent;
+    background-image: linear-gradient(rgba(215, 111, 191, 0.947),rgba(242, 235, 241, 0.947)), 
+    linear-gradient(45deg, #ddacd3, #bd2299, #c65cad);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -442,9 +442,9 @@ h1 {
     padding: 8px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
     border-radius: 20px;
-    border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(220, 145, 151, 0.947),rgba(242, 235, 235, 0.947)), 
-    linear-gradient(45deg, #e32d39 , #cfb5b6, #b65c65);
+    border: 2px solid #c842c1, double 2px transparent;
+    background-image: linear-gradient(rgba(215, 111, 191, 0.947),rgba(242, 235, 241, 0.947)), 
+    linear-gradient(45deg, #c65cad, #ddacd3, #bd2299);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -459,9 +459,9 @@ h1 {
     margin-top: 120px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
     border-radius: 20px;
-    border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(220, 145, 151, 0.947),rgba(242, 235, 235, 0.947)), 
-    linear-gradient(45deg, #cfb5b6, #e32d39, #b65c65);
+    border: 2px solid #c842c1, double 2px transparent;
+    background-image: linear-gradient(rgba(215, 111, 191, 0.947),rgba(242, 235, 241, 0.947)), 
+    linear-gradient(45deg, #ddacd3, #bd2299, #c65cad);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -507,4 +507,36 @@ h1 {
 
 .cenecoop{
     margin-top: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #df2ba9cf;
+    width: 100%;
+    height: 100px;
+}
+
+#contacto{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#icono-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.desing-by{
+    margin-left: 300px;
 }
