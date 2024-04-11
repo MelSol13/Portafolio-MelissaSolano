@@ -88,7 +88,7 @@ h1 {
 
 .card-acerca-de-mi{
     width: 800px;
-    height: 350px;
+    height: 430px;
     margin-top: 300px;
     margin-left: 250px;
     padding: 8px;
@@ -125,6 +125,18 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
+}
+
+button{
+    background-color: rgb(212, 81, 15);
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(244, 117, 44);
+    border-radius: 5px;
+    margin-left: 600px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .circle-gif{
