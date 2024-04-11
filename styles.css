@@ -167,6 +167,7 @@ h1 {
     width: 300px;
     height: 300px;
     margin: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 2px;
     cursor: zoom-in;
@@ -210,29 +211,155 @@ h1 {
     transform: scale(1.2);
 }
 
+.leng-herr-card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.leng-herr-card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.leng-herr-card3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.leng-herr-card4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.leng-herr-card5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.leng-herr-card6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.leng-herr-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.leng-herr-2{
+    display: flex;
+    flex-direction: row;
+    margin-left:7px;
+}
+
+.leng-herr-3{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px;
+}
+
+h6{
+    color: black;
+    font-family: "Rowdies", sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+#leng-mdb{
+    background-color: #168345;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-exp{
+    background-color: #bd83dd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-react{
+    background-color: #64b6ce;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-node{
+    background-color: #7cd471;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-js{
+    background-color: #e8e272;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-html{
+    color: white;
+    background-color: rgb(212, 81, 15);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-css{
+    color: rgb(122, 219, 222);
+    background-color: rgb(50, 50, 252);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-boots{
+    background-color: rgb(142, 69, 219);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-post{
+    background-color: #e8774e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-git{
+    background-color: #dc5f43;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-github{
+    background-color: #bd2299;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#leng-fire{
+    background-color: #e0b53f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .tarjeta1{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 450px;
-    padding: 4px;
-    margin: 30px;
-    box-shadow: 0px 0px 5px 2px rgb(144, 147, 222);
-    border-radius: 20px;
-    border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
-    linear-gradient(45deg, #25b5bf, #4223dc, #bb7709);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-.tarjeta2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 350px;
-    height: 450px;
+    height: 525px;
     padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(194, 150, 217);
@@ -244,12 +371,12 @@ h1 {
     background-clip: content-box, border-box;
 }
 
-.tarjeta3{
+.tarjeta2{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 450px;
+    height: 525px;
     padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(208, 165, 224);
@@ -261,12 +388,12 @@ h1 {
     background-clip: content-box, border-box;
 }
 
-.tarjeta4{
+.tarjeta3{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 450px;
+    height: 525px;
     padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(173, 224, 240);
@@ -278,12 +405,12 @@ h1 {
     background-clip: content-box, border-box;
 }
 
-.tarjeta5{
+.tarjeta4{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 450px;
+    height: 525px;
     padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(239, 193, 170);
@@ -295,12 +422,29 @@ h1 {
     background-clip: content-box, border-box;
 }
 
+.tarjeta5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 610px;
+    padding: 4px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(144, 147, 222);
+    border-radius: 20px;
+    border: 2px solid #833ab4, double 2px transparent;
+    background-image: linear-gradient(rgba(10, 3, 31, 0.947),rgba(10, 3, 31, 0.947)), 
+    linear-gradient(45deg, #25b5bf, #4223dc, #bb7709);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
 .tarjeta6{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 450px;
+    height: 610px;
     padding: 4px;
     margin: 30px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
@@ -354,7 +498,7 @@ h1 {
     flex-direction: column;
     width: 1300px;
     height: 450px;
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: 300px;
     padding: 8px;
     box-shadow: 5px 5px 15px 10px rgb(113, 73, 177);
