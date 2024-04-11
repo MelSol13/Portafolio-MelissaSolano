@@ -163,6 +163,7 @@ h1 {
 
 .imagen-card {
     display: flex;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -173,9 +174,13 @@ h1 {
 }
 
 .imagen-card:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
+.href{
+    display: flex;
+    flex-direction: row;
+}
 
 #icono-github{
     display: flex;
@@ -183,6 +188,8 @@ h1 {
     height: 60px;
     border-radius: 50%;
     cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
     transition: opacity 1s ease-in-out;
 }
 
@@ -190,6 +197,18 @@ h1 {
     transform: scale(1.2);
 }
 
+#icono-enlace{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: opacity 1s ease-in-out;
+}
+
+#icono-enlace:hover {
+    transform: scale(1.2);
+}
 
 .tarjeta1{
     display: flex;
@@ -334,15 +353,15 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 1300px;
-    height: 400px;
+    height: 450px;
     margin-top: 200px;
     margin-left: 300px;
     padding: 8px;
     box-shadow: 5px 5px 15px 10px rgb(113, 73, 177);
     border-radius: 10px;
     border: 2px solid #833ab4, double 2px transparent;
-    background-image: linear-gradient(rgba(246, 244, 250, 0.947), rgba(49, 18, 66, 0.947)), 
-    linear-gradient(45deg, #b51f99, #530b63, #b51f99);
+    background-image: linear-gradient(rgba(246, 244, 250, 0.947), rgba(126, 101, 141, 0.947)), 
+    linear-gradient(45deg, #4f2059, #e872d0, #4c0840);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -350,38 +369,44 @@ h1 {
 #lista-hab-arriba{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    text-align: center;
+    justify-content:space-evenly;
+    font-family: "Rowdies", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 #lista-hab-abajo{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    text-align: center;
     justify-content: space-evenly;
+    font-family: "Rowdies", sans-serif;
 }
 
 #icono{
     display: flex;
+    flex-direction: column;
     width: 70px;
     height: 70px;
-    border-radius: 50%;
     cursor: zoom-in;
     transition: opacity 1s ease-in-out;
+    color: #530b63;
 }
 
 #icono:hover {
     transform: scale(1.2);
 }
 
+
 .firebase{
     margin-left: 20px;
 }
 
 .sql{
-    margin-left: 15px;
-
+    margin-left: 5px;
+    width: 60px;
+    height: 65px;
 }
 
 #educacion{
@@ -458,9 +483,8 @@ h1 {
     flex-direction: column;
     list-style: none;
     width: 300px;
-    height: 400px;
+    height: 630px;
     padding: 8px;
-    margin-top: 120px;
     box-shadow: 0px 0px 5px 2px rgb(237, 208, 239);
     border-radius: 20px;
     border: 2px solid #c842c1, double 2px transparent;
@@ -514,20 +538,22 @@ h1 {
 }
 
 .womcy{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
-}
-
-.cisco-redes{
-    margin-bottom: 15px;
 }
 
 .idiomas-cr{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .cenecoop{
     margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.ucr{
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .footer{
